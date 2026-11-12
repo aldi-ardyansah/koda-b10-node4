@@ -1,0 +1,32 @@
+{
+  "name": "koda-b10-node4",
+  "version": "1.0.0",
+  "description": "Program to fetch data from jsonplaceholder",
+  "keywords": [
+    "cli"
+  ],
+  "homepage": "https://github.com/aldi-ardyansah/koda-b10-node4#readme",
+  "bugs": {
+    "url": "https://github.com/aldi-ardyansah/koda-b10-node4/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aldi-ardyansah/koda-b10-node4.git"
+  },
+  "license": "MIT",
+  "author": "aldi-ardyansah",
+  "type": "module",
+  "main": "node index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "lint": "eslint *.js *.cjs *.mjs **/*.js **/*.cjs **/*.mjs",
+    "lint:fix": "eslint *.js *.cjs *.mjs **/*.js **/*.cjs **/*.mjs --fix"
+  },
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "@stylistic/eslint-plugin": "^5.10.0",
+    "eslint": "^10.14.0",
+    "globals": "^17.14.0"
+  }
+}
